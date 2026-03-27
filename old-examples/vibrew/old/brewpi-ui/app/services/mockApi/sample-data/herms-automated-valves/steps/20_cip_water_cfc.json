@@ -1,0 +1,189 @@
+{
+  "id": 20,
+  "name": "CIP water: flush CFC",
+  "notes": [
+    "Next we'll flush the CFC (also in opposite direction to normal beer flow for better cleaning)."
+  ],
+  "settings": [
+    {
+      "id": "HLT-in",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "MT-in",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Coil-out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Coil-in",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "BK-in",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "MT-out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "BK-out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "MT-spray",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Water",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Route-1",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Route-2",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "CFC-out",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "CFC-in",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Drain",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Water-fill",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Water-cfc",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "BK-spray",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "hlt",
+      "settings": {
+        "volume": 55.0,
+        "liquid": "hotwater"
+      }
+    },
+    {
+      "id": "bk",
+      "settings": {
+      }
+    },
+    {
+      "id": "mt",
+      "settings": {
+      }
+    },
+    {
+      "id": "in1",
+      "settings": {
+        "liquid": "water"
+      }
+    },
+    {
+      "id": "heat_hlt",
+      "settings": {
+        "duty": 10
+      }
+    },
+    {
+      "id": "heat_bk",
+      "settings": {
+        "duty": 0
+      }
+    },
+    {
+      "id": "p1",
+      "settings":{
+        "power": false
+      }
+    },
+    {
+      "id": "p2",
+      "settings":{
+        "power": false
+      }
+    },
+    {
+      "id": "sphlt",
+      "settings": {
+        "val": 75,
+        "set": 75
+      }
+    },
+    {
+      "id": "spmt",
+      "settings": {
+        "val": 20
+      }
+    },
+    {
+      "id": "spbk",
+      "settings": {
+        "val": 20
+      }
+    },
+    {
+      "id": "cfcouttemp",
+      "settings": {
+        "val": 15
+      }
+    }
+  ]
+}

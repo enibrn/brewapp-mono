@@ -1,0 +1,195 @@
+{
+  "id": 17,
+  "name": "Cool and transfer",
+  "notes": [
+    "In this setup, we cool in a single pass, while also re-using the heat by transfering it to the HLT.", 
+    "You should now connect the transfer hose to your fermenter.",
+    "Fill the HLT with water. This water and the HERMS coil will act as a pre-cooler and will be heated to be later used for cleaning.",
+    "Also open the cooling water for the CFC, and then start pump 2 to do a single pass cool through the HLT coil and the CFC.", 
+    "Adjust the flow rate to maintain the desired output temperature." 
+  ],
+  "settings": [
+    {
+      "id": "HLT-in",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "MT-in",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Coil-out",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Coil-in",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "BK-in",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "MT-out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "BK-out",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "MT-spray",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Water",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Route-1",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Route-2",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "CFC-out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "CFC-in",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Drain",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Water-fill",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Water-cfc",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Out",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "BK-spray",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "hlt",
+      "settings": {
+        "volume": 65.0,
+        "liquid": "water"
+      }
+    },
+    {
+      "id": "bk",
+      "settings": {
+        "volume": 50,
+        "liquid": "wort"
+      }
+    },
+    {
+      "id": "mt",
+      "settings": {
+      }
+    },
+    {
+      "id": "in1",
+      "settings": {
+        "liquid": "water"
+      }
+    },
+    {
+      "id": "heat_hlt",
+      "settings": {
+      }
+    },
+    {
+      "id": "heat_bk",
+      "settings": {
+        "duty": 0
+      }
+    },
+    {
+      "id": "p1",
+      "settings":{
+        "power": true
+      }
+    },
+    {
+      "id": "p2",
+      "settings":{
+        "power": true,
+        "speed": 100
+      }
+    },
+    {
+      "id": "sphlt",
+      "settings": {
+        "val": 15
+      }
+    },
+    {
+      "id": "spmt",
+      "settings": {
+        "val": 20
+      }
+    },
+    {
+      "id": "spbk",
+      "settings": {
+        "val": 95,
+        "set": 20
+      }
+    },
+    {
+      "id": "cfcouttemp",
+      "settings": {
+        "val": 20
+      }
+    }
+  ]
+}

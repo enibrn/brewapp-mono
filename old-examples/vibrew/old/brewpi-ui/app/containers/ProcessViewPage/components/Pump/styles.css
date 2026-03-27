@@ -1,0 +1,56 @@
+.pump {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+.blades {
+  stroke: #FFF;
+  stroke-width: 2pt;
+  stroke-linecap: round;
+  fill: none;
+}
+
+.bladesWrapper {
+  transform: translateY(5px);
+}
+
+.ball {
+  stroke: #FFF;
+  stroke-width: 2pt;
+  stroke-linecap: round;
+  fill: none;
+}
+
+.motor {
+  fill: #FFF;
+}
+
+.tubes {
+  stroke: #FFF;
+  stroke-width: 2pt;
+  stroke-linecap: round;
+  fill: none;
+}
+
+.liquid {
+  fill: none;
+  stroke: black;
+  stroke-width: 5pt;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.id {
+  position: absolute;
+  top: 39px;
+  left: 0;
+  width: 100%;
+  text-align: right;
+  font-size: 10px;
+}
+
+.unflip {
+  transform: scaleX(-1);
+}

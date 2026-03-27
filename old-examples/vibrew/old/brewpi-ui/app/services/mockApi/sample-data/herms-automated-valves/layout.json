@@ -1,0 +1,915 @@
+{
+  "name": "HERMS layout",
+  "parts": [
+    {
+      "part": {
+        "rotate": 90,
+        "type": "TUBE_ELBOW"
+      },
+      "x": 0,
+      "y": 2
+    },
+    {
+      "part": {
+        "type": "TUBE_STRAIGHT"
+      },
+      "x": 1,
+      "y": 2
+    },
+    {
+      "part": {
+        "rotate": 90,
+        "type": "TUBE_STRAIGHT"
+      },
+      "x": 0,
+      "y": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "part": {
+        "rotate": 90,
+        "type": "TUBE_STRAIGHT"
+      },
+      "x": 1,
+      "y": 8
+    },
+    {
+      "part": {
+        "rotate": 90,
+        "type": "TUBE_ELBOW"
+      },
+      "x": 1,
+      "y": 7
+    },
+    {
+      "part": {
+        "type": "TUBE_ELBOW"
+      },
+      "x": 0,
+      "y": 11
+    },
+    {
+      "part": {
+        "rotate": 0,
+        "id": "in1",
+        "type": "TUBE_INPUT"
+      },
+      "x": 0,
+      "y": 14
+    },
+    {
+      "part": {
+        "type": "PUMP",
+        "id": "p1",
+        "rotate": 270
+      },
+      "x": 1,
+      "y": 9
+    },
+    {
+      "part": {
+        "id": "hlt",
+        "type": "KETTLE",
+        "options": {
+          "height": 6,
+          "volume": 70,
+          "width": 4
+        }
+      },
+      "x": 2,
+      "y": 2
+    },
+    {
+      "part": {
+        "type": "TUBE_WHIRLPOOL"
+      },
+      "x": 2,
+      "y": 2
+    },
+    {
+      "part": {
+        "rotate": 180,
+        "type": "COIL"
+      },
+      "x": 3,
+      "y": 4
+    },
+    {
+      "part": {
+        "type": "HEATING_ELEMENT",
+        "id": "heat_hlt"
+      },
+      "x": 1,
+      "y": 6
+    },
+    {
+      "part": {
+        "type": "TUBE_DIP"
+      },
+      "x": 2,
+      "y": 7
+    },
+    {
+      "part": {
+        "type": "TUBE_STRAIGHT",
+        "rotate": 90
+      },
+      "x": 3,
+      "y": 9
+    },
+    {
+      "part": {
+        "id": "HLT-in",
+        "rotate": 270,
+        "type": "VALVE_MOTOR",
+        "options": {
+          "slot": 1
+        }
+      },
+      "x": 0,
+      "y": 10
+    },
+    {
+      "part": {
+        "rotate": 90,
+        "type": "TUBE_ELBOW"
+      },
+      "x": 3,
+      "y": 8
+    },
+    {
+      "part": {
+        "type": "VALVE_CHECK",
+        "rotate": 90
+      },
+      "x": 1,
+      "y": 10
+    },
+    {
+      "part": {
+        "type": "TUBE_CROSS"
+      },
+      "x": [
+        1,
+        3,
+        5,
+        14
+      ],
+      "y": 11
+    },
+    {
+      "part": {
+        "type": "TUBE_TEE"
+      },
+      "x": 1,
+      "y": 14
+    },
+    {
+      "part": {
+        "id": "Water",
+        "type": "VALVE_MOTOR",
+        "options": {
+          "slot": 2
+        }
+      },
+      "x": 2,
+      "y": 11
+    },
+    {
+      "part": {
+        "rotate": 180,
+        "type": "TUBE_ELBOW"
+      },
+      "x": 6,
+      "y": 5
+    },
+    {
+      "part": {
+        "rotate": 180,
+        "type": "TUBE_ELBOW"
+      },
+      "x": 7,
+      "y": 4
+    },
+    {
+      "part": {
+        "rotate": 90,
+        "type": "TUBE_STRAIGHT"
+      },
+      "x": 7,
+      "y": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "part": {
+        "type": "TUBE_STRAIGHT"
+      },
+      "x": [
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "y": 14
+    },
+    {
+      "part": {
+        "type": "TUBE_STRAIGHT"
+      },
+      "x": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "y": 11
+    },
+    {
+      "part": {
+        "rotate": 90,
+        "type": "TUBE_ELBOW"
+      },
+      "x": 8,
+      "y": 2
+    },
+    {
+      "part": {
+        "rotate": 90,
+        "type": "TUBE_STRAIGHT"
+      },
+      "x": 8,
+      "y": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "part": {
+        "type": "TUBE_BRIDGE"
+      },
+      "x": [
+        6,
+        7
+      ],
+      "y": 8
+    },
+    {
+      "part": {
+        "type": "TUBE_STRAIGHT"
+      },
+      "x": 6,
+      "y": 4
+    },
+    {
+      "part": {
+        "rotate": 270,
+        "id": "MT-in",
+        "type": "VALVE_MOTOR",
+        "options": {
+          "slot": 3
+        }
+      },
+      "x": 3,
+      "y": 10
+    },
+    {
+      "part": {
+        "rotate": 180,
+        "type": "TUBE_ELBOW"
+      },
+      "x": 21,
+      "y": 1
+    },
+    {
+      "part": {
+        "rotate": 180,
+        "type": "TUBE_ELBOW"
+      },
+      "x": 22,
+      "y": 0
+    },
+    {
+      "part": {
+        "rotate": 90,
+        "type": "TUBE_ELBOW"
+      },
+      "x": 11,
+      "y": 0
+    },
+    {
+      "part": {
+        "rotate": 90,
+        "type": "TUBE_ELBOW"
+      },
+      "x": 18,
+      "y": 1
+    },
+    {
+      "part": {
+        "rotate": 90,
+        "type": "TUBE_INLET_STRAIGHT"
+      },
+      "x": 11,
+      "y": 2
+    },
+    {
+      "part": {
+        "rotate": 90,
+        "type": "TUBE_INLET_STRAIGHT"
+      },
+      "x": 18,
+      "y": 2
+    },
+    {
+      "part": {
+        "rotate": 90,
+        "type": "TUBE_STRAIGHT"
+      },
+      "x": 6,
+      "y": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "part": {
+        "type": "TUBE_ELBOW",
+        "rotate": 270
+      },
+      "x": 6,
+      "y": 9
+    },
+    {
+      "part": {
+        "rotate": 90,
+        "type": "TUBE_ELBOW"
+      },
+      "x": 5,
+      "y": 9
+    },
+    {
+      "part": {
+        "type": "TUBE_ELBOW",
+        "rotate": 270
+      },
+      "x": 8,
+      "y": 8
+    },
+    {
+      "part": {
+        "type": "TUBE_ELBOW",
+        "rotate": 0
+      },
+      "x": 5,
+      "y": 12
+    },
+    {
+      "part": {
+        "type": "TUBE_ELBOW",
+        "rotate": 180
+      },
+      "x": 8,
+      "y": 12
+    },
+    {
+      "part": {
+        "type": "TUBE_ELBOW",
+        "rotate": 270
+      },
+      "x": 8,
+      "y": 13
+    },
+    {
+      "part": {
+        "type": "TUBE_STRAIGHT"
+      },
+      "x": 7,
+      "y": 12
+    },
+    {
+      "part": {
+        "type": "TUBE_STRAIGHT",
+        "rotate": 90
+      },
+      "x": 14,
+      "y": 13
+    },
+    {
+      "part": {
+        "id": "mt",
+        "type": "KETTLE",
+        "options": {
+          "height": 6,
+          "volume": 70,
+          "width": 4
+        }
+      },
+      "x": 9,
+      "y": 2
+    },
+    {
+      "part": {
+        "type": "TUBE_INLET"
+      },
+      "x": 9,
+      "y": 2
+    },
+    {
+      "part": {
+        "id": "Route-1",
+        "type": "VALVE_MOTOR",
+        "options": {
+          "slot": 4
+        }
+      },
+      "x": 4,
+      "y": 11
+    },
+    {
+      "part": {
+        "id": "Water-fill",
+        "type": "VALVE_MOTOR",
+        "rotate": 270,
+        "options": {
+          "slot": 15
+        }
+      },
+      "x": 1,
+      "y": 12
+    },
+    {
+      "part": {
+        "rotate": 270,
+        "id": "Coil-out",
+        "type": "VALVE_MOTOR",
+        "options": {
+          "slot": 5
+        }
+      },
+      "x": 5,
+      "y": 10
+    },
+    {
+      "part": {
+        "id": "Route-2",
+        "type": "VALVE_MOTOR",
+        "options": {
+          "slot": 6
+        }
+      },
+      "x": 6,
+      "y": 11
+    },
+    {
+      "part": {
+        "id": "Water-cfc",
+        "type": "VALVE_MANUAL"
+      },
+      "x": 2,
+      "y": 14
+    },
+    {
+      "part": {
+        "rotate": 270,
+        "id": "Coil-in",
+        "type": "VALVE_MOTOR",
+        "options": {
+          "slot": 7
+        }
+      },
+      "x": 7,
+      "y": 10
+    },
+    {
+      "part": {
+        "id": "BK-in",
+        "type": "VALVE_MOTOR",
+        "options": {
+          "slot": 8
+        },
+        "rotate": 270
+      },
+      "x": 20,
+      "y": 10
+    },
+    {
+      "part": {
+        "type": "TUBE_TEE"
+      },
+      "x": [
+        7,
+        20,
+        21
+      ],
+      "y": 11
+    },
+    {
+      "part": {
+        "type": "LAUTERHEXE",
+        "rotate": 180
+      },
+      "x": 9,
+      "y": 7
+    },
+    {
+      "part": {
+        "rotate": 180,
+        "type": "TUBE_ELBOW"
+      },
+      "x": 13,
+      "y": 7
+    },
+    {
+      "part": {
+        "type": "TUBE_STRAIGHT"
+      },
+      "x": [4,5],
+      "y": 8
+    },
+    {
+      "part": {
+        "id": "bk",
+        "type": "KETTLE",
+        "options": {
+          "height": 6,
+          "volume": 70,
+          "width": 4
+        }
+      },
+      "x": 16,
+      "y": 2
+    },
+    {
+      "part": {
+        "type": "TUBE_WHIRLPOOL",
+        "flip": true
+      },
+      "x": 19,
+      "y": 2
+    },
+    {
+      "part": {
+        "type": "HEATING_ELEMENT",
+        "id": "heat_bk"
+      },
+      "x": 15,
+      "y": 6
+    },
+    {
+      "part": {
+        "type": "TUBE_DIP"
+      },
+      "x": 16,
+      "y": 7
+    },
+    {
+      "part": {
+        "rotate": 90,
+        "type": "TUBE_STRAIGHT"
+      },
+      "x": 20,
+      "y": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "part": {
+        "id": "MT-out",
+        "rotate": 270,
+        "type": "VALVE_MOTOR",
+        "options": {
+          "slot": 9
+        }
+      },
+      "x": 13,
+      "y": 8
+    },
+    {
+      "part": {
+        "type": "TUBE_OUTPUT",
+        "flip": true
+      },
+      "x": 0,
+      "y": 13
+    },
+    {
+      "part": {
+        "type": "TUBE_STRAIGHT",
+        "rotate": 90
+      },
+      "x": 1,
+      "y": 13
+    },
+    {
+      "part": {
+        "id": "BK-out",
+        "rotate": 270,
+        "type": "VALVE_MOTOR",
+        "options": {
+          "slot": 10
+        }
+      },
+      "x": 15,
+      "y": 8
+    },
+    {
+      "part": {
+        "id": "CFC-out",
+        "type": "VALVE_MOTOR",
+        "rotate": 270,
+        "options": {
+          "slot": 11
+        }
+      },
+      "x": 3,
+      "y": 12
+    },
+    {
+      "part": {
+        "id": "Drain",
+        "type": "VALVE_MOTOR",
+        "rotate": 270,
+        "options": {
+          "slot": 12
+        }
+      },
+      "x": 14,
+      "y": 12
+    },
+    {
+      "part": {
+        "id": "CFC-in",
+        "type": "VALVE_MOTOR",
+        "options": {
+          "slot": 16
+        }
+      },
+      "x": 6,
+      "y": 12
+    },
+    {
+      "part": {
+        "id": "MT-spray",
+        "type": "VALVE_MOTOR",
+        "rotate": 270,
+        "options": {
+          "slot": 13
+        }
+      },
+      "x": 22,
+      "y": 10
+    },
+    {
+      "part": {
+        "id": "BK-spray",
+        "type": "VALVE_MOTOR",
+        "rotate": 270,
+        "options": {
+          "slot": 14
+        }
+      },
+      "x": 21,
+      "y": 10
+    },
+    {
+      "part": {
+        "id": "Out",
+        "type": "VALVE_MANUAL"
+      },
+      "x": 2,
+      "y": 13
+    },
+    {
+      "part": {
+        "type": "TUBE_BRIDGE"
+      },
+      "x": 1,
+      "y": 13
+    },
+    {
+      "part": {
+        "rotate": 270,
+        "type": "PUMP",
+        "id": "p2"
+      },
+      "x": 14,
+      "y": 10
+    },
+    {
+      "part": {
+        "rotate": 180,
+        "type": "TUBE_TEE"
+      },
+      "x": 14,
+      "y": 9
+    },
+    {
+      "part": {
+        "type": "TUBE_TEE"
+      },
+      "x": 3,
+      "y": 13
+    },
+    {
+      "part": {
+        "rotate": 180,
+        "type": "TUBE_ELBOW"
+      },
+      "x": 20,
+      "y": 2
+    },
+    {
+      "part": {
+        "rotate": 90,
+        "type": "TUBE_ELBOW"
+      },
+      "x": 15,
+      "y": 7
+    },
+    {
+      "part": {
+        "type": "CFC"
+      },
+      "x": 5,
+      "y": 13
+    },
+    {
+      "part": {
+        "type": "TUBE_ELBOW",
+        "rotate": 270
+      },
+      "x": 22,
+      "y": 11
+    },
+    {
+      "part": {
+        "type": "TUBE_STRAIGHT"
+      },
+      "x": [
+        19,
+        20
+      ],
+      "y": 1
+    },
+    {
+      "part": {
+        "type": "TUBE_STRAIGHT"
+      },
+      "x": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "y": 0
+    },
+    {
+      "part": {
+        "type": "TUBE_STRAIGHT",
+        "rotate": 90
+      },
+      "x": 11,
+      "y": 1
+    },
+    {
+      "part": {
+        "type": "TUBE_STRAIGHT",
+        "rotate": 90
+      },
+      "x": 22,
+      "y": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "part": {
+        "type": "TUBE_STRAIGHT",
+        "rotate": 90
+      },
+      "x": 21,
+      "y": [
+        2,
+        3,
+        4,
+        5,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "part": {
+        "rotate": 0,
+        "type": "TUBE_TEE"
+      },
+      "x": 14,
+      "y": 14
+    },
+    {
+      "part": {
+        "rotate": 0,
+        "type": "TUBE_ELBOW"
+      },
+      "x": 13,
+      "y": 9
+    },
+    {
+      "part": {
+        "rotate": 270,
+        "type": "TUBE_ELBOW"
+      },
+      "x": 15,
+      "y": 9
+    },
+    {
+      "part": {
+        "type": "TUBE_OUTPUT"
+      },
+      "x": 15,
+      "y": 14
+    },
+    {
+      "part": {
+        "type": "SETPOINT",
+        "id": "sphlt"
+      },
+      "x": 2,
+      "y": 1
+    },
+    {
+      "part": {
+        "type": "SETPOINT",
+        "id": "spmt"
+      },
+      "x": 9,
+      "y": 1
+    },
+    {
+      "part": {
+        "type": "SETPOINT",
+        "id": "spbk"
+      },
+      "x": 16,
+      "y": 1
+    },
+    {
+      "part": {
+        "type": "TEMP_SENSOR_INLINE",
+        "id": "cfcouttemp"
+      },
+      "x": 4,
+      "y": 13
+    }
+  ],
+  "id": "v0"
+}

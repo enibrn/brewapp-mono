@@ -1,0 +1,196 @@
+{
+  "id": 13,
+  "name": "Push wort out of HERMS coil",
+  "notes": [
+    "We push the wort left in the HERMS coil to the boil kettle.",
+    "This will increase brewhouse efficiency and it cleans the coil now that the sugars are still hot and easy to flush."
+  ],
+  "settings": [
+    {
+      "id": "HLT-in",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "MT-in",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Coil-out",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Coil-in",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "BK-in",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "MT-out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "BK-out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "MT-spray",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Water",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Route-1",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Route-2",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "CFC-out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "CFC-in",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Drain",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Water-fill",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Water-cfc",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "BK-spray",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "hlt",
+      "settings": {
+        "volume": 30.0,
+        "liquid": "hotwater"
+      }
+    },
+    {
+      "id": "bk",
+      "settings": {
+        "volume": 42,
+        "liquid": "wort"
+      }
+    },
+    {
+      "id": "mt",
+      "settings": {
+        "grain": 25,
+        "volume": 0,
+        "liquid": "runoff"
+      }
+    },
+    {
+      "id": "in1",
+      "settings": {
+        "liquid": "water"
+      }
+    },
+    {
+      "id": "heat_hlt",
+      "settings": {
+        "duty": 0
+      }
+    },
+    {
+      "id": "heat_bk",
+      "settings": {
+        "duty": 100
+      }
+    },
+    {
+      "id": "p1",
+      "settings":{
+        "power": true
+      }
+    },
+    {
+      "id": "p2",
+      "settings":{
+        "power": true,
+        "speed": 40
+      }
+    },
+    {
+      "id": "sphlt",
+      "settings": {
+        "val": 75.2
+      }
+    },
+    {
+      "id": "spmt",
+      "settings": {
+        "val": 72.8
+      }
+    },
+    {
+      "id": "spbk",
+      "settings": {
+        "val": 82.9,
+        "set": 100
+      }
+    },
+    {
+      "id": "cfcouttemp",
+      "settings": {
+        "val": 20
+      }
+    }
+  ]
+}

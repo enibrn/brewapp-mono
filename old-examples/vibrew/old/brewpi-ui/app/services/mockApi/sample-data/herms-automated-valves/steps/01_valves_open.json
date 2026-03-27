@@ -1,0 +1,156 @@
+{
+  "id": 1,
+  "name": "All valves open",
+  "notes": [
+    "This brewing setup uses 16 remotely controlled valves and 2 manual valves, for the beer output and the counter flow chiller water.",
+    "This setup is designed as a closed system that can be fully automated for brewing and cleaning. Clean-in-place cycles can be done with a few clicks before and after brewing.",
+    "The steps are pre-defined and can be cycled through with the top menu. With the arrows or drop-down menu you can select the next brewing step and just click 'Apply' to toggle all valves.",
+    "If you want to put the system in a state that is not pre-defined, you can click the valves and pumps. In the browser it will calculate what the new flows would be and when you click 'Apply' the state will be copied to the real world hardware."   
+  ],
+  "settings": [
+    {
+      "id": "HLT-in",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "MT-in",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Coil-out",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Coil-in",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "BK-in",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "MT-out",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "BK-out",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "MT-spray",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Water",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Route-1",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Route-2",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "CFC-out",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "CFC-in",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Drain",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Water-fill",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Water-cfc",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Out",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "BK-spray",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "sphlt",
+      "settings": {
+        "val": 20
+      }
+    },
+    {
+      "id": "spmt",
+      "settings": {
+        "val": 20
+      }
+    },
+    {
+      "id": "spbk",
+      "settings": {
+        "val": 20
+      }
+    },
+    {
+      "id": "p1",
+      "settings":{
+        "power": false
+      }
+    },
+    {
+      "id": "p2",
+      "settings":{
+        "power": false
+      }
+    },
+    {
+      "id": "cfcouttemp",
+      "settings": {
+        "val": 20
+      }
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "id": 23,
+  "name": "CIP PBW: prep",
+  "notes": [
+    "A brewery cleaning solution (PBW or similar) will be pumped through all parts of the system. It is prepared in the boil kettle with water from the HLT."
+  ],
+  "settings": [
+    {
+      "id": "HLT-in",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "MT-in",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Coil-out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Coil-in",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "BK-in",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "MT-out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "BK-out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "MT-spray",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Water",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Route-1",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Route-2",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "CFC-out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "CFC-in",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Drain",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Water-fill",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Water-cfc",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "BK-spray",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "hlt",
+      "settings": {
+        "volume": 25.0,
+        "liquid": "hotwater"
+      }
+    },
+    {
+      "id": "bk",
+      "settings": {
+        "volume": 30,
+        "liquid": "cleaner"
+      }
+    },
+    {
+      "id": "mt",
+      "settings": {
+      }
+    },
+    {
+      "id": "in1",
+      "settings": {
+        "liquid": "water"
+      }
+    },
+    {
+      "id": "heat_hlt",
+      "settings": {
+        "duty": 0
+      }
+    },
+    {
+      "id": "heat_bk",
+      "settings": {
+        "duty": 0
+      }
+    },
+    {
+      "id": "p1",
+      "settings":{
+        "power": true,
+        "speed": 100
+      }
+    },
+    {
+      "id": "p2",
+      "settings":{
+        "power": false
+      }
+    },
+    {
+      "id": "sphlt",
+      "settings": {
+        "val": 73
+      }
+    },
+    {
+      "id": "spmt",
+      "settings": {
+        "val": 20
+      }
+    },
+    {
+      "id": "spbk",
+      "settings": {
+        "val": 70
+      }
+    },
+    {
+      "id": "cfcouttemp",
+      "settings": {
+        "val": 20
+      }
+    }
+  ]
+}

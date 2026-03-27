@@ -1,0 +1,25 @@
+.powerOff {
+  color: #222;
+}
+
+.powerOn {
+  color: #E1AC00;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate {
+  transform-origin: 25px 25px;
+  animation-name: rotating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}

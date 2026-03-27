@@ -1,0 +1,100 @@
+.tube {
+  stroke: #FFF;
+  stroke-width: 2pt;
+  fill: none;
+}
+
+.liquid {
+  fill: none;
+  stroke-width: 5pt;
+}
+
+.ball {
+  fill: #FFF;
+  stroke: #FFF;
+  stroke-width: 2pt;
+}
+
+.rotating {
+  transform-origin: 25px 25px;
+  transition-duration: 1s;
+}
+
+.rotate_90 {
+  transform: rotate(90deg);
+}
+
+.rotate_180 {
+  transform: rotate(180deg);
+}
+
+.rotate_270 {
+  transform: rotate(270deg);
+}
+
+.powerIcon {
+  fill: #000;
+}
+
+.powerIcon.powerClosing {
+  fill: #F53;
+}
+
+.powerIcon.powerOpening {
+  fill: #5C5;
+}
+
+.ballOpen {
+  transform: rotate(0deg);
+}
+
+.ballMidway {
+  transform: rotate(45deg);
+}
+
+.ballClosed {
+  transform: rotate(90deg);
+}
+
+.id {
+  position: absolute;
+  bottom: -6px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black, 0 -0.07em black;
+  overflow: visible;
+  white-space: nowrap;
+}
+
+.Valve {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+.variant1 {
+  transform-origin: 25px 25px;
+  transform: rotate(0deg);
+}
+
+.variant2 {
+  transform-origin: 25px 25px;
+  transform: rotate(90deg);
+}
+
+.variant3 {
+  transform-origin: 25px 25px;
+  transform: rotate(180deg);
+}
+
+.variant4 {
+  transform-origin: 25px 25px;
+  transform: rotate(270deg);
+}

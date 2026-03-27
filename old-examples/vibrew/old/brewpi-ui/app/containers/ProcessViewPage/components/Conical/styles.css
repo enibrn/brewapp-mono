@@ -1,0 +1,65 @@
+.conical {
+  stroke: #FFF;
+  stroke-width: 2pt;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+.conicalLegs {
+  stroke: #FFF;
+  stroke-width: 2pt;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: #24333D;
+}
+
+.temp,
+.setpoint,
+.carboyName {
+  fill: #FFF;
+  stroke-width: 8;
+  stroke: #24333D;
+  paint-order: stroke;
+  text-align: right;
+  stroke-linejoin: round;
+}
+
+.temp {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.setpoint {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.coil {
+  stroke: #FFF;
+  stroke-width: 2pt;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  transform: translateX(170px) translateY(150px) scaleX(-1);
+}
+
+.conicalFill rect {
+  transform-origin: 0 363px;
+  transform: scaleY(0.9);
+}
+
+.iconHeating {
+  stroke: #FFF;
+  stroke-width: 2pt;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  width: 30px;
+  transform: translateX(50px) translateY(260px);
+}
+
+.iconHeating path {
+  stroke: none;
+  fill: #FFF;
+}

@@ -1,0 +1,174 @@
+{
+  "id": 4,
+  "name": "Fill boil kettle",
+  "notes": [
+    "The boil kettle (BK) is filled with strike water for the mash.",
+    "We heat the strike water in the boil kettle, instead of taking it from the HLT, so we can measure the volume in advance and make it hotter than the HLT water. This is needed because it is mixed with cold grain."
+  ],
+  "settings": [
+    {
+      "id": "HLT-in",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "MT-in",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Coil-out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Coil-in",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "BK-in",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "MT-out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "BK-out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "MT-spray",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Water",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Route-1",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Route-2",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "CFC-out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "CFC-in",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Drain",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Water-fill",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Water-cfc",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "BK-spray",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "hlt",
+      "settings": {
+        "volume": 45,
+        "liquid": "water"
+      }
+    },
+    {
+      "id": "bk",
+      "settings": {
+        "volume": 24.5,
+        "liquid": "water"
+      }
+    },
+    {
+      "id": "in1",
+      "settings": {
+        "liquid": "water"
+      }
+    },
+    {
+      "id": "sphlt",
+      "settings": {
+        "val": 15
+      }
+    },
+    {
+      "id": "spmt",
+      "settings": {
+        "val": 20
+      }
+    },
+    {
+      "id": "spbk",
+      "settings": {
+        "val": 15
+      }
+    },
+    {
+      "id": "p1",
+      "settings":{
+        "power": false
+      }
+    },
+    {
+      "id": "p2",
+      "settings":{
+        "power": false
+      }
+    },
+    {
+      "id": "cfcouttemp",
+      "settings": {
+        "val": 20
+      }
+    }
+  ]
+}

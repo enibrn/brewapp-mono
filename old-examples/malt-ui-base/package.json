@@ -1,0 +1,22 @@
+{
+  "name": "@enibrn/malt-ui-base",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "dev": "nuxi dev .playground",
+    "prep": "nuxt prepare .playground",
+    "build": "nuxt build .playground",
+    "gen": "nuxt generate .playground",
+    "prev": "nuxt preview .playground"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.8",
+    "nuxt": "^3.16.2",
+    "typescript": "^5.8.2",
+    "vue": "latest"
+  },
+  "dependencies": {
+    "appwrite": "^17.0.1"
+  }
+}

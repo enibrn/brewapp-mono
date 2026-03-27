@@ -1,0 +1,13 @@
+{
+  "name": "blue-app",
+  "version": "1.0.0",
+  "description": "Blue App extending the base app",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "nuxt": "^3.0.0"
+  }
+}

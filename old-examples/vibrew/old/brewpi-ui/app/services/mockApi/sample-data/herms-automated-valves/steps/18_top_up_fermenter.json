@@ -1,0 +1,193 @@
+{
+  "id": 18,
+  "name": "Top up fermenter",
+  "notes": [
+    "If extra top-up water is needed to reach the desired gravity and volume in the fermenter, you can pump water from the HLT to the fermenter. If needed, heat it enough to sanitize it.",
+    "This will also push the wort left in the CFC to the fermenter."
+  ],
+  "settings": [
+    {
+      "id": "HLT-in",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "MT-in",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Coil-out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Coil-in",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "BK-in",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "MT-out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "BK-out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "MT-spray",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Water",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Route-1",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Route-2",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "CFC-out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "CFC-in",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Drain",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Water-fill",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Water-cfc",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Out",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "BK-spray",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "hlt",
+      "settings": {
+        "volume": 55.0,
+        "liquid": "hotwater"
+      }
+    },
+    {
+      "id": "bk",
+      "settings": {
+        "volume": 0
+      }
+    },
+    {
+      "id": "mt",
+      "settings": {
+      }
+    },
+    {
+      "id": "in1",
+      "settings": {
+        "liquid": "water"
+      }
+    },
+    {
+      "id": "heat_hlt",
+      "settings": {
+        "duty": 10
+      }
+    },
+    {
+      "id": "heat_bk",
+      "settings": {
+        "duty": 0
+      }
+    },
+    {
+      "id": "p1",
+      "settings":{
+        "power": true,
+        "speed": 50
+      }
+    },
+    {
+      "id": "p2",
+      "settings":{
+        "power": false
+      }
+    },
+    {
+      "id": "sphlt",
+      "settings": {
+        "val": 75,
+        "set": 75
+      }
+    },
+    {
+      "id": "spmt",
+      "settings": {
+        "val": 72
+      }
+    },
+    {
+      "id": "spbk",
+      "settings": {
+        "val": 40,
+        "set": 20
+      }
+    },
+    {
+      "id": "cfcouttemp",
+      "settings": {
+        "val": 20
+      }
+    }
+  ]
+}

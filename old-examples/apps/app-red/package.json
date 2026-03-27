@@ -1,0 +1,14 @@
+{
+  "name": "app-red",
+  "version": "1.0.0",
+  "description": "App Red extending Base Red with a new authentication implementation.",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "nuxt": "^2.15.0"
+  },
+  "devDependencies": {}
+}

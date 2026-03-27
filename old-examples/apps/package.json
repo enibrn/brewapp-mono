@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "workspaces": [
+    "app-red",
+    "base-red"
+  ],
+  "name": "nuxt-workspace",
+  "version": "1.0.0",
+  "description": "Nuxt workspace with multiple apps"
+}

@@ -1,0 +1,143 @@
+.fridgeContainer {
+  position: relative;
+  width: 200px;
+  height: 600px;
+}
+
+.fridgeCompartment {
+  border: solid 2pt #FFF;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.fridgeName,
+.setpoint {
+  fill: #FFF;
+  stroke-width: 8;
+  stroke: #24333D;
+  paint-order: stroke;
+  text-align: right;
+  stroke-linejoin: round;
+}
+
+.fanHousing,
+.fanBlades {
+  fill: white;
+}
+
+.fridgeName,
+.setpoint,
+.coolingPercentage,
+.heatingPercentage {
+  font-size: 16px;
+  vertical-align: middle;
+  padding-left: 18px;
+}
+
+.fridgeTop {
+  height: 50px;
+}
+
+.fridgeMiddle {
+  height: 500px;
+}
+
+.fridgeShelf {
+  height: 50px;
+  width: 200px;
+  border-top: solid 3px #FFF;
+}
+
+.fridgeBottom {
+  position: relative;
+  height: 50px;
+}
+
+.fridgeName,
+.setpoint {
+  position: absolute;
+  top: 0;
+  padding: 10px;
+}
+
+.fridgeName {
+  left: 0;
+}
+
+.setpoint {
+  right: 0;
+}
+
+.temp {
+  position: absolute;
+  font-weight: bold;
+  font-size: 40px;
+  right: 10px;
+}
+
+.divCooling,
+.divHeating {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  float: left;
+}
+
+.divCooling {
+  border-right: solid 2px;
+}
+
+.iconCooling,
+.iconHeating,
+.iconDefrost {
+  stroke: #FFF;
+  stroke-width: 2pt;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  width: 30px;
+  padding-bottom: 3px;
+}
+
+.iconHeating path,
+.iconDefrost path {
+  stroke: none;
+  fill: #FFF;
+}
+
+.motor {
+  fill: #FFF;
+}
+
+.powerOff {
+  color: #222;
+}
+
+.powerOn {
+  color: #E1AC00;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotateOff {
+  transform-origin: 25px 25px;
+}
+
+.rotateFast {
+  animation: rotating 1s linear infinite;
+  transform-origin: 25px 25px;
+}
+
+.rotateSlow {
+  animation: rotating 2s linear infinite;
+  transform-origin: 25px 25px;
+}

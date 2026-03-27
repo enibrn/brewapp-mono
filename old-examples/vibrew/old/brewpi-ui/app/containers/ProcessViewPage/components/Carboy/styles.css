@@ -1,0 +1,37 @@
+.carboy {
+  stroke: #FFF;
+  stroke-width: 2pt;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+.carboyName {
+  font-size: 12px;
+}
+
+.temp,
+.setpoint,
+.carboyName {
+  fill: #FFF;
+  stroke-width: 8;
+  stroke: #24333D;
+  paint-order: stroke;
+  text-align: right;
+  stroke-linejoin: round;
+}
+
+.temp {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.setpoint {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.carboyFill rect {
+  transform-origin: 0 200px;
+  transform: translate(0, 3px)  scaleY(0.9);
+}

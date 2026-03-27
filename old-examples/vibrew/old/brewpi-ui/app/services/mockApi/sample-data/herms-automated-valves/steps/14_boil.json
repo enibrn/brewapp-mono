@@ -1,0 +1,196 @@
+{
+  "id": 14,
+  "name": "Boil",
+  "notes": [
+    "The wort is boiled for 60 or 90 minutes, depending on the recipe.",
+    "Hop is added in multiple additions, giving bitterness and flavor to the beer. Longer boil times give more bitterness.",
+    "It is important to not cover the kettle during the boil, so DMS can boil off.",
+    "Any leftover sparge water can be pumped to the drain through the CFC, backflushing it.",
+    "While the wort is boiling, you have time to scoop the grain out of the MT. A wet vac works great to suck up every last grain."
+  ],
+  "settings": [
+    {
+      "id": "HLT-in",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "MT-in",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Coil-out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Coil-in",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "BK-in",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "MT-out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "BK-out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "MT-spray",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Water",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Route-1",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Route-2",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "CFC-out",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "CFC-in",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Drain",
+      "settings": {
+        "pos": "open"
+      }
+    },
+    {
+      "id": "Water-fill",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Water-cfc",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "Out",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "BK-spray",
+      "settings": {
+        "pos": "closed"
+      }
+    },
+    {
+      "id": "hlt",
+      "settings": {
+        "volume": 15.0,
+        "liquid": "hotwater"
+      }
+    },
+    {
+      "id": "bk",
+      "settings": {
+        "volume": 50,
+        "liquid": "wort"
+      }
+    },
+    {
+      "id": "mt",
+      "settings": {
+        "grain": 25
+      }
+    },
+    {
+      "id": "in1",
+      "settings": {
+        "liquid": "water"
+      }
+    },
+    {
+      "id": "heat_hlt",
+      "settings": {
+        "duty": 0
+      }
+    },
+    {
+      "id": "heat_bk",
+      "settings": {
+        "duty": 100
+      }
+    },
+    {
+      "id": "p1",
+      "settings":{
+        "power": true
+      }
+    },
+    {
+      "id": "p2",
+      "settings":{
+        "power": false
+      }
+    },
+    {
+      "id": "sphlt",
+      "settings": {
+        "val": 74.2
+      }
+    },
+    {
+      "id": "spmt",
+      "settings": {
+        "val": 20
+      }
+    },
+    {
+      "id": "spbk",
+      "settings": {
+        "val": 100,
+        "set": 100
+      }
+    },
+    {
+      "id": "cfcouttemp",
+      "settings": {
+        "val": 73
+      }
+    }
+  ]
+}

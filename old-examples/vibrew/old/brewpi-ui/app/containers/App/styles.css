@@ -1,0 +1,11 @@
+/**
+ * styles.css
+ *
+ * App container styles
+ */
+
+.App {
+  display: block;
+  color: #FFF;
+  height: 100%;
+}

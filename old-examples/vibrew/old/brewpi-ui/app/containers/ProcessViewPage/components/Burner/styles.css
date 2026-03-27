@@ -1,0 +1,35 @@
+.flameContainer {
+  transform-origin: center bottom;
+}
+
+.flame,
+.flameInner {
+  transform-origin: center bottom;
+}
+
+.flame {
+  fill: #45B7FF
+}
+
+.flameInner {
+  fill: #9cd4ff;
+}
+
+.burner {
+  stroke: #FFF;
+  stroke-width: 2pt;
+  stroke-linecap: round;
+  fill: none;
+}
+
+.burner rect,
+.burner polygon {
+  fill: #FFF;
+}
+
+.Burner {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+}

@@ -1,0 +1,14 @@
+.catalogPage { /* stylelint-disable */
+
+}
+
+.partsTable,
+td
+{
+  background: #24333D;
+  color: #FFF;
+}
+
+td > * {
+  margin-left: 10px !important;
+}

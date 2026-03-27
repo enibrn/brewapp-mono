@@ -1,0 +1,48 @@
+.element,
+.enclosure {
+  stroke: #FFF;
+  stroke-width: 2pt;
+  stroke-linecap: round;
+  fill: none;
+}
+
+.enclosure {
+  position: absolute;
+  width: 42px;
+  height: 35px;
+  border: solid 3px;
+  border-radius: 5px;
+  left: 11px;
+  bottom: 8px;
+}
+
+.enclosureBg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #9C0000;
+}
+
+.element {
+  stroke-width: 4pt;
+}
+
+.root {
+  position: relative;
+}
+
+.value {
+  text-align: center;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 700;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 5px;
+  z-index: 2;
+}
+
+.unflip {
+  transform: scaleX(-1);
+}

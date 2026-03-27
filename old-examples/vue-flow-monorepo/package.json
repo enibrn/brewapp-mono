@@ -1,0 +1,10 @@
+{
+  "name": "topflo-monorepo",
+  "private": true,
+  "workspaces": [
+    "showcase"
+  ],
+  "dependencies": {
+    "@dagrejs/dagre": "^1.1.4"
+  }
+}

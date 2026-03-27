@@ -1,0 +1,21 @@
+.ProcessView {
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #FFF;
+}
+
+.tiles {
+  text-align: center;
+  display: block;
+}
+
+.row {
+  margin: auto;
+  clear: left;
+  display: table;
+}
+
+.grid {
+  /* makes grid together with overlapping grid on tile to get 1px line thickness */
+  box-shadow: inset 1px 1px 0 0 #45525A;
+}

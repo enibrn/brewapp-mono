@@ -1,0 +1,44 @@
+@media (prefers-color-scheme: dark) {
+  /* Dark mode styles */
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+
+  div {
+    background-color: #121212;
+  }
+
+  form {
+    background-color: #1e1e1e;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  label {
+    color: #e0e0e0;
+  }
+
+  input {
+    background-color: #2c2c2c;
+    border: 1px solid #555;
+    color: #e0e0e0;
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    background-color: #333;
+    color: #e0e0e0;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+}

@@ -1,0 +1,15 @@
+.beerBottle {
+  stroke: #FFF;
+  fill: none;
+  stroke-width: 2pt;
+  stroke-linecap: round;
+}
+
+.beerBottleFill {
+  stroke: none;
+}
+
+.beerBottle,
+.beerBottleFill {
+  transform: translateY(24px); /* TODO: modify SVG */
+}

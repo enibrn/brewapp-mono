@@ -1,0 +1,63 @@
+@import '@vue-flow/core/dist/style.css';
+@import '@vue-flow/core/dist/theme-default.css';
+
+html,
+body,
+#app {
+  margin: 0;
+  height: 100%;
+}
+
+#app {
+  text-transform: uppercase;
+  font-family: 'JetBrains Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.pinia-flow {
+  background-color: #1a192b;
+  height: 100%;
+  width: 100%;
+}
+
+.buttons-panel {
+  display: flex;
+  gap: 10px;
+}
+
+.vue-flow__panel {
+  background-color: #2d3748;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+}
+
+.vue-flow__panel button {
+  border: none;
+  cursor: pointer;
+  background-color: #4a5568;
+  border-radius: 8px;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vue-flow__panel button:hover {
+  background-color: #2563eb;
+  transition: background-color 0.2s;
+}
+
+.vue-flow__node.dark {
+  background-color: #2d3748;
+  color: white;
+}

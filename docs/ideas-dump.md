@@ -1,10 +1,18 @@
 - in `/root/workspace/brewapp-mono/old-examples` ci sono vecchi progetti MVP fatti nel 2025, spesso abbandonati e incompleti
 - ho generato una deep-wiki che li spiega in linguaggio umano `/root/workspace/enibrn-brewapp-mono-DeepWiki`. Accedi a questo prima di cercare il codice specifico.
-- Ogni milestones può consistere in vari task e serve per arrivare ad un punto stabile
+- Ogni milestones può consistere in vari task e serve per arrivare ad un punto stabile dello sviluppo
+- il plan di una milestone deve tenere in considerazione:
+  - milestone in esame
+    - cercare anche nella deep-wiki
+    - ma non andare ad esplorare direttamente `brewapp-mono/old-examples`: lo farà l'esecutore del task nel caso gli servano esempi
+  - milestone passate
+    - leggere eventualmente anche i runbook.md, i plan non dovrebbero servire
+  - milestone future
+    - per la bigger picture, ed evitare di creare artifatti inutili/controproducenti/da dover eliminare o riscrivere.
 
 ## elenco milestones
 
-### 1) skeleton: nuxt3 + vuetify3
+### 1) skeleton: nuxt3 + vuetify3: DONE
 
 - app nuxt3 con vuetify3
     - esiste il 4 per entrambi ma voglio partire a gradi

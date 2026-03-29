@@ -8,23 +8,12 @@
           </v-toolbar>
           <v-card-text>
             <v-form @submit.prevent="handleLogin">
-              <v-text-field
-                v-model="email"
-                label="Email"
-                name="email"
-                prepend-icon="mdi-email"
-                type="email"
-                data-testid="email-input"
-              ></v-text-field>
-              <v-text-field
-                v-model="password"
-                id="password"
-                label="Password"
-                name="password"
-                prepend-icon="mdi-lock"
-                type="password"
-                data-testid="password-input"
-              ></v-text-field>
+              <BrewJsonForm
+                v-model="formData"
+                :schema="schema"
+                :uischema="uischema"
+                @error="handleFormError"
+              />
               
               <v-alert v-if="error" type="error" class="mt-3" data-testid="login-error">{{ error }}</v-alert>
 
@@ -44,16 +33,35 @@
 import { ref } from 'vue'
 import { useAuth } from '~/composables/useAuth'
 import { useRouter } from 'vue-router'
+import BrewJsonForm from '~/components/BrewJsonForm.vue'
+import schema from '~/schemas/login.schema.json'
+import uischema from '~/schemas/login.uischema.json'
 
 const { login } = useAuth()
 const router = useRouter()
-const email = ref('test@example.com')
-const password = ref('password')
+const formData = ref({ email: 'test@example.com', password: 'password' })
 const error = ref('')
+const formErrors = ref([])
+
+function handleFormError(errors) {
+  formErrors.value = errors || []
+}
 
 async function handleLogin() {
+  console.log('formErrors.value:', JSON.stringify(formErrors.value))
+  console.log('formData.value:', JSON.stringify(formData.value))
   error.value = ''
-  const result = await login(email.value, password.value)
+  if (formErrors.value.length > 0) {
+    error.value = 'Please fix the errors before submitting.'
+    return
+  }
+  
+  if (!formData.value.email || !formData.value.password) {
+    error.value = 'Email and password are required.'
+    return
+  }
+  
+  const result = await login(formData.value.email, formData.value.password)
   if (result.error) {
     error.value = result.error
   } else {

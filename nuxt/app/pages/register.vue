@@ -8,24 +8,15 @@
           </v-toolbar>
           <v-card-text>
             <v-form @submit.prevent="handleRegister">
-              <v-text-field
-                v-model="email"
-                label="Email"
-                name="email"
-                prepend-icon="mdi-email"
-                type="email"
-                data-testid="reg-email"
-              ></v-text-field>
-              <v-text-field
-                v-model="password"
-                id="password"
-                label="Password"
-                name="password"
-                prepend-icon="mdi-lock"
-                type="password"
-                data-testid="reg-password"
-              ></v-text-field>
+              <BrewJsonForm
+                v-model="formData"
+                :schema="schema"
+                :uischema="uischema"
+                @error="handleFormError"
+              />
               
+              <v-alert v-if="error" type="error" class="mt-3" data-testid="reg-error">{{ error }}</v-alert>
+
               <v-card-actions class="mt-4">
                 <v-spacer></v-spacer>
                 <v-btn color="secondary" type="submit" data-testid="reg-btn">Register</v-btn>
@@ -42,16 +33,40 @@
 import { ref } from 'vue'
 import { useAuth } from '~/composables/useAuth'
 import { useRouter } from 'vue-router'
+import BrewJsonForm from '~/components/BrewJsonForm.vue'
+import schema from '~/schemas/register.schema.json'
+import uischema from '~/schemas/register.uischema.json'
 
 const { signup } = useAuth()
 const router = useRouter()
-const email = ref('')
-const password = ref('')
+const formData = ref({ name: '', email: '', password: '', confirmPassword: '' })
 const error = ref('')
+const formErrors = ref([])
+
+function handleFormError(errors) {
+  formErrors.value = errors || []
+}
 
 async function handleRegister() {
+  console.log('formErrors.value:', formErrors.value)
+  console.log('formData.value:', formData.value)
   error.value = ''
-  const result = await signup(email.value, password.value)
+  if (formErrors.value.length > 0) {
+    error.value = 'Please fix the errors before submitting.'
+    return
+  }
+
+  if (!formData.value.name || !formData.value.email || !formData.value.password || !formData.value.confirmPassword) {
+    error.value = 'All fields are required.'
+    return
+  }
+
+  if (formData.value.password !== formData.value.confirmPassword) {
+    error.value = 'Passwords do not match.'
+    return
+  }
+
+  const result = await signup(formData.value.email, formData.value.password)
   if (result.error) {
     error.value = result.error
   } else {
